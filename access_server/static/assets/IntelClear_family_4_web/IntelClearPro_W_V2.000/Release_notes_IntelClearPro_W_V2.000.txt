@@ -1,0 +1,40 @@
+==Release notes_Intel Clear Pro W==
+
+
+
+Date of creation: 2015-03-27
+
+Changes since version 1.001:
+- Adds support for International Phonetic Alphabet (IPA), extended Latin and extended Cyrillic.
+- Adds language support for Bulgarian, Chipewyan, Finnish, Inari Sami, Kildin Sami, Lule Sami, Marshallese, Muskogee, Northern Sami, Norwegian, Navajo, Skolt Sami, Southern Sami, and Swedish.
+
+
+Basic information
+1 Basic family name: Intel Clear Pro W
+2 TrueType Version record: 2.000
+3 Regional Package: Latin, Cyrillic, IPA
+4 Supported scripts: Latin, Cyrillic, IPA
+5 Number of glyphs: 1238
+6 Weights/Styles: Bold
+7 Usage: Display
+
+
+Technology
+1 Files formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF.
+2 Embedding settings: Everything is allowed (installable mode).
+3 Hinting information: All glyphs are manually hinted for optimized rasterization in Microsoft ClearType or for other LCD devices.
+4 The Embedded OpenType(EOT) font-format works in Microsoft Internet Explorer by including ".eot?#iefix;" to the @font-face CSS rule.
+
+  eg:
+
+  @font-face {
+    font-family: Intel Clear Pro W;
+    src: url("css/type/IntelClearPro_W_Bd.eot");
+    src: url("css/type/IntelClearPro_W_Bd.eot?#iefix") format("embedded-opentype"),
+         url("css/type/IntelClearPro_W_Bd.woff") format("woff"),
+         url("css/type/IntelClearPro_W_Bd.ttf") format("truetype");
+  }
+
+  body {
+    font-family: Intel Clear Pro W, Georgia;
+  }

@@ -1,0 +1,34 @@
+==Release notes_Intel Clear W==
+
+
+Date of creation: 2014-05-20
+
+Changes since version 2.000:
+- Character set extended to IPA, Greek and Cyrillic Extended (hinted on the Y direction only).
+- Added support for Chipewyan, Finnish, Greek Polytonic, Inari Sami, Kildin Sami, Lule Sami, Marshallese, Muskogee, Northern Sami, Norwegian, Navajo, Skolt Sami, Southern Sami, and Swedish.
+- On Mac OS X, on MS Office, Intel Clear Light will appear with the Intel Clear family in the font menu.
+ 
+
+Basic information
+1 Basic family name: Intel Clear W
+2 TrueType Version record: 2.100
+3 Regional Package: Latin, Vietnamese, Greek, Cyrillic
+4 Supported scripts: Latin, Greek, Cyrillic
+5 Weights/Styles: Light, Light Italic, Regular, Italic, Bold, Bold Italic
+6 Usage: Text and Display
+
+
+Technology
+1 Files formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF.
+2 Embedding settings: Everything is allowed (installable mode).
+3 Hinting information: All glyphs are manually hinted for optimized rasterization in Microsoft ClearType or for other LCD devices.
+4 The Web-fonts package contains separate fonts for different scripts (ie. Latin, Vietnamese, Greek, and Cyrillic)
+5 The Embedded OpenType(EOT) font-format works in Microsoft Internet Explorer by including ".eot?#iefix;" to the @font-face CSS rule.
+
+  eg:
+
+  @font-face {
+	  font-family: Intel Clear Pre Alpha It;
+	  src: url(css/type/IntelClerPreAlphaWLatn_It.eot?#iefix;) format("embedded-opentype");
+	  }
+  body { font-family: Intel Clear Pre Alpha It, Georgia; }

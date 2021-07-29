@@ -1,0 +1,270 @@
+@font-face {
+font-family: "Intel Clear";
+src: url("IntelClear_family_4_web/IntelClearPro_W_V2.000/TTF/IntelClear_Rg.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Intel Clear Pro";
+src: url("IntelClear_family_4_web/IntelClearPro_W_V2.000/TTF/IntelClearPro_Bd.ttf") format("truetype");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.logo {
+	position: absolute;
+	margin: 0 auto;
+	left: 40px;
+	/*top: 14px;*/
+	z-index: 5;
+	/*width: 12%;*/
+	max-width: 136.1px;
+	height: auto;
+	max-height: 100px;
+}
+
+.right_logo {
+	position: absolute;
+	margin: 0 auto;
+	right: 40px;
+	top: 14px;
+	z-index: 5;
+	width: 12%;
+	max-width: 300px;
+	height: auto;
+	max-height: 200px;
+}
+
+.header {
+    background-color: rgb(255,255,255);
+    text-align: center;
+	color: white;
+	font-family: Intel Clear Pro, Georgia;
+    padding: 20px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	/* border-style: dotted; */
+}
+
+.sidecolheader {
+    text-align: center;
+	color: rgb(0,0,0);
+	font-family: Intel Clear Pro, Georgia;
+    /*padding: 10px;*/
+    margin: 10px;
+    font-size: 50px;
+    /* border-style: dotted; */
+}
+
+.midcoltext {
+	/* background-color: rgb(0,176,240); */
+    text-align: center;
+	color: rgb(0,0,0);
+	font-family: Intel Clear , Georgia;
+    padding: 10px;
+	margin:0;
+	font-size: 20px;
+	/* border-style: dotted; */
+}
+	
+/* Create two equal columns that float next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+	/* border-style: dotted; */
+}
+
+.spacecolumn {   
+    float: left;
+    width: 10%;
+    padding-top: 20px;
+}
+
+.midcolumn {   
+    float: left;
+    width: 20.0%;
+    padding-top: 20px;
+	/* border-style: dotted; */
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+	/* border-style: dotted; */
+}
+
+img {
+    max-width: 100%;
+    height: 50;
+    width: 50; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
+
+button {
+	background-color: rgb(0,32,96);
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	font-family: Intel Clear, Georgia;
+	padding: 10px 10px;
+	/* margin: auto; */
+	/*width: 32.5%*/
+}
+.center {
+    margin: auto;
+    /* padding: 5px; */
+}
+/* .centerbox { */
+	/* /* position: relative; */ */
+	/* /* top: 50%; */ */
+	/* /* transform: translateY(-50%); */ */
+	/* /* justify-content: center; */ */
+	/* /* align-items: center; */ */
+	/* text-align: center; */
+	/* font-family: Intel Clear Pro, Georgia; */
+	/* font-size: 90px; */
+	/* color: white; */
+	/* background-color: rgb(0,32,96); */
+	/* width: 70%; */
+	/* margin: auto; */
+	/* padding: 70px; */
+/* } */
+
+.centerbox_container {
+	height: 10em;
+	position: relative;
+}
+
+.centerbox {
+	font-size: 20px;
+	z-index: 5;
+	margin:0;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: Intel Clear Pro, Georgia;
+	/* font-size: 50px; */
+	color: white;
+	background-color: rgb(0,32,96);
+	width: 70%
+}
+
+.buttonbox {
+	font-size: 20px;
+	/*position: absolute;*/
+	/*left: 42%;*/
+	bottom: 15%;
+	text-align: center;
+	font-family: Intel Clear Pro, Georgia;
+	z-index: 5;
+	margin:0;
+	/*width: 300px;*/
+	/*height: 200px;*/
+}
+
+
+.buttonbox2 {
+	font-size: 20px;
+	/*position: absolute;*/
+	/*left: 42%;*/
+	bottom: 10%;
+	text-align: center;
+	font-family: Intel Clear Pro, Georgia;
+	z-index: 5;
+	margin:0;
+	/*width: 300px;*/
+	/*height: 200px;*/
+}
+
+.imgcol {
+	float: left;
+	margin: 2px 
+	padding: 2px
+	/* border-style: dotted; */
+}
+
+.imgbar {
+	position: relative;
+    /* background-color: white; */
+    margin: auto;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h6 {
+    font-style : italic
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
